@@ -86,3 +86,15 @@ img{
 .cabecalho .nav-link:hover {
     color: #DC3545;
 }
+
+.servicos {
+    background-color: #212529;
+    color: #F8F9FA;
+    padding-top: 10px;
+}
+
+.card {
+    background-color: #212529;
+    color: #F8F9FA;
+    padding-top: 10px;
+}
