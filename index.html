@@ -15,41 +15,40 @@
     <title>BGA Informática</title>
 </head>
 
-<body >
+<body style = "background-color: #f8f9fa" >
     <header class="cabecalho">
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"></a>
+      <!-- IMAGEM NAVBAR -->
+       <img src="img/logo_bga.jpeg" alt="Logo da empresa BGA" width="100" height="44">
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+       </button>
+      <!-- INÍCIO - Abas de navegação superior -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link"  href="index.html">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre.html">Sobre</a>
+        </li>
+        <li class="nav-item px-2 ">
+          <a class="nav-link" href="servicos.html">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+      </ul>
+    </div>
+  
+    </div>
+  </nav>
+</div>
+</header>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div class="container" >
-                <a class="navbar-brand" href="#">
-                    <img src="img/logo_bga.jpeg" alt="Logo da empresa BGA" width="100" height="44" >
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-               <!-- INÍCIO - Abas de navegação superior -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                    <a class="nav-link text-danger fw-bolder" aria-current="page" href="index.html">Início</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link text-danger fw-bolder" href="sobre.html">Sobre</a>
-                    </li>
-                    <li class="nav-item px-2 ">
-                    <a class="nav-link text-danger fw-bolder" href="servicos.html">Serviços</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link text-danger fw-bolder" href="contato.html">Contato</a>
-                    </li>
-                </ul>
-                </div>
-            </div>
-        </nav>
-
-    </header>
-
+    <!--Inicia o fale conoscoo-->
     <div class="capa" >
         <div class="container py-5">
             <div class="row py-5 mt-5 align-items-center">
@@ -87,7 +86,9 @@
                     <div class="card">
                         <div class="card-body text-center position-relative">                           
                             <div class="mt-5" >
-                                <img src="img/l1.png" class="img-fluid" alt="" width="220" height="150">
+                                <a href="servicos.html#secao-manutencao">
+                                <img src="img/manutenção_computadores.png" class="img-fluid" alt="" width="220" height="150">
+                                </a>
                             </div>
                             <div class="mt-2">
                                 <h3>Montagem e Mautenção de Computadores</h3>                                
@@ -100,7 +101,9 @@
                     <div class="card">
                         <div class="card-body text-center position-relative">                            
                             <div class="mt-5">
-                                <img src="img/l2.png" class="img-fluid" alt="" width="220" height="150">
+                                <a href="servicos.html#secao-redes">
+                                <img src="img/redes_recortada.png" class="img-fluid" alt="" width="220" height="150">
+                                </a>
                             </div>
                             <div class="mt-2">
                                 <h3>Instalação de Redes de Computadores</h3>                                
@@ -113,7 +116,9 @@
                     <div class="card">
                         <div class="card-body text-center position-relative">                            
                             <div class="mt-5">
+                                <a href="servicos.html#secao-virus">
                                 <img src="img/virus_pequena.jpg" class="img-fluid" alt="" width="220" height="150" >
+                                </a>
                             </div>
                             <div class="mt-2">
                                 <h3>Remoção de Vírus e Spyware</h3>                                
@@ -179,6 +184,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicos.html">Serviços</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contato.html">Contato</a>

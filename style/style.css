@@ -74,6 +74,10 @@ img{
     padding-top: 10px;
 }
 
+.cabecalho .navbar {
+    background-color: #212529 !important;
+}
+
 .cabecalho .nav-link {
     color: #DEE2E6;
     transition: color 0.3s ease;
