@@ -1,0 +1,84 @@
+.capa {
+    background-color: #BC1823;
+}
+
+.faleConosco {
+    background-color: #BC1823;
+}
+
+body{
+    background-color: #F8F9FA;
+}
+
+img{
+    border-radius: 20px;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #212529;
+    color: #F8F9FA;
+    padding-top: 10px;
+}
+
+/* Descrição */
+.descricao-rodape {
+    color: #DEE2E6;
+    font-size: 14px;
+}
+
+/* Títulos */
+.titulo-rodape {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-bottom: 15px;
+}
+
+/* Links do menu */
+.rodape .nav-link {
+    color: #DEE2E6;
+    transition: color 0.3s ease;
+}
+
+.rodape .nav-link:hover {
+    color: #DC3545;
+}
+
+/* Ícones sociais */
+.rodape .icone-social {
+    font-size: 30px;
+}
+
+/* Facebook */
+.rodape .facebook {
+    color: #1877F2;
+}
+
+/* Instagram */
+.rodape .instagram {
+    color: #E4405F;
+}
+
+/* Efeito ao passar o mouse */
+.rodape .icone-social:hover {
+    color: #FFFFFF;
+    transform: scale(1.1);
+}
+
+/*Cabeçalho */
+.cabecalho {
+    background-color: #212529;
+    color: #F8F9FA;
+    padding-top: 10px;
+}
+
+.cabecalho .nav-link {
+    color: #DEE2E6;
+    transition: color 0.3s ease;
+}
+
+.cabecalho .nav-link:hover {
+    color: #DC3545;
+}
